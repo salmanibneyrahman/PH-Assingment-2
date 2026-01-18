@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechWave</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header>
+        <!-- navbar section -->
+        <nav class="navbar">
+            <div>
+                <h3 class="logo">Tech<span class="logo-wave">Wave</span></h3>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="nav-btn">
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+                </button>
+            </div>
+            <div class="hamburger-icon">
+                <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+        <section class="banner-section">
+            <div class="banner-image">
+                <img class="banner-stack banner-hero-image" src="./assets/hero-bg.png" alt="" />
+                <div class="banner-mic-container">
+
+                    <div class="mic-div"> <img class="banner-stack banner-mic-image" src="./assets/microphone.png"
+                            alt="" /></div>
+
+                    <div class="circle-div"> <img class="banner-stack banner-mic-background-image"
+                            src="./assets/hero-circle.png" alt="" /></div>
+
+                </div>
+            </div>
+            <div class="banner-content gap-4 flex flex-col items-center">
+                <h1 class="text-white font-bold font text-6xl">TechWave</h1>
+                <p class="text-white/80 text-base leading-[1.2rem] mt-4 mb-7">Your daily dose of tech insights,
+                    productivity hacks, and personal growth </p>
+                <div class="flex gap-4 mt-10">
+                    <button class="listen-btn flex gap-2"><img src="./assets/spotify.png" alt=""> Listen On
+                        Spotify</button>
+
+                    <button class="sub-btn flex gap-2"><img src="./assets/message.png" alt=""> Subscribe</button>
+                </div>
+        </section>
+    </header>
+</body>
+
+</html>
