@@ -191,6 +191,7 @@ body {
     width: 100%;
     height: 5.8rem;
     text-align: center;
+    margin-bottom: 7.5rem;
 }
 
 
@@ -203,6 +204,115 @@ body {
 .card-title {
     text-align: center;
     color: #00ff88;
+}
+
+
+/* why choose section */
+
+.why-choose-section {
+    background-color: #230E3D;
+    padding: 7.5rem 12.5rem;
+}
+
+
+.why-choose-title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+
+.why-choose-container {
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+
+.features-grid {
+    width: 1200px;
+}
+
+
+.feature-card {
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 2.5rem;
+    padding: 2rem 1.25rem;
+    text-align: left;
+    justify-content: center;
+}
+
+
+.features-grid h3 {
+    margin-top: 1.8rem;
+}
+
+
+.feature-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #00d9ff;
+    transform: translateY(-5px);
+}
+
+
+.feature-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    background: rgba(0, 217, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.card-paragraph {
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+
+.feature-1 {
+    grid-area: card1;
+}
+
+.feature-2 {
+    grid-area: card2;
+}
+
+.feature-3 {
+    grid-area: card3;
+}
+
+.feature-4 {
+    grid-area: card4;
+}
+
+.feature-5 {
+    grid-area: card5;
+}
+
+
+.features-grid {
+    display: grid;
+    gap: 1.87rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "card1 card2 card2"
+        "card1 card3 card3"
+        "card4 card4 card5"
+}
+
+
+.features-grid>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16;
+    padding: 0.7rem;
 }
 
 
@@ -256,7 +366,7 @@ body {
 
 
     .new-little-badge {
-        top: 1rem;
+        top: -.001rem;
         left: 70%;
         padding: 0.2rem 0.5rem;
         font-size: 0.7rem;
@@ -315,6 +425,24 @@ body {
         padding-right: 1rem;
         column-gap: 1rem;
         overflow: hidden;
+    }
+
+
+    /* why-choose-section */
+
+    .features-grid{
+    margin: 3rem 1.2rem;
+    }
+
+
+    .features-grid{
+grid-template-columns: 1fr;
+    grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
     }
 
 }
