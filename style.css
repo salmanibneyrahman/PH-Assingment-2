@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgba(37, 13, 68, 1);
+    background-color: #1A0B2E;
 }
 
 
@@ -92,7 +92,7 @@ body {
 }
 
 
-.banner-mic-container {
+.banner-mic {
     position: absolute;
     width: 100%;
     max-width: 22rem;
@@ -108,7 +108,7 @@ body {
 }
 
 
-.new-badge {
+.new-little-badge {
     position: absolute;
     top: 2rem;
     left: 79%;
@@ -121,7 +121,7 @@ body {
 }
 
 
-.banner-mic-image {
+.mic-image {
     width: 7.25rem;
     height: 12.5rem;
     margin: 4.5rem 4.6rem 4.5rem 7.4rem;
@@ -132,11 +132,11 @@ body {
     text-align: center;
     padding-top: 8rem;
     margin: 2rem 0;
-
+    gap: 1.5rem;
 }
 
 
-.listen-btn {
+.spotify-btn {
     white-space: nowrap;
     padding: 0.75rem 2.10rem 0.75rem 1.25rem;
 }
@@ -149,6 +149,60 @@ body {
     border-radius: 625rem;
     background: transparent;
     border: 2px solid #00ff88;
+}
+
+
+
+/* about section */
+
+.about-section-description {
+    text-align: center;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+
+.about-section-title {
+    margin-bottom: 1rem;
+}
+
+
+.about-paragraph-break {
+    margin-top: 3rem;
+    padding-bottom: 10rem;
+    border-bottom: .2rem solid rgba(255, 255, 255, 0.136);
+    margin-bottom: 10rem;
+}
+
+
+.about-section-paragraph {
+    line-height: 2.25rem;
+}
+
+
+.about-card-container {
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+.about-card {
+    max-width: 15rem;
+    width: 100%;
+    height: 5.8rem;
+    text-align: center;
+}
+
+
+.card-paragraph {
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+
+.card-title{
+    text-align: center;
+    color: #00ff88;
 }
 
 
@@ -171,7 +225,7 @@ body {
 
     /* banner section */
 
-    .listen-btn {
+    .spotify-btn {
         display: inline-flex;
     }
 
@@ -183,7 +237,7 @@ body {
     }
 
 
-    .banner-mic-container {
+    .banner-mic {
         position: absolute;
         max-width: 12.5rem;
         width: 100%;
@@ -194,7 +248,7 @@ body {
     }
 
 
-    .banner-mic-image {
+    .mic-image {
         width: 4rem;
         height: 4rem;
         margin: 2.5rem 2.6rem 2.5rem 4.2rem;
@@ -211,7 +265,7 @@ body {
     .banner-content {
         padding-top: 1.5rem;
         margin: 1rem 0;
-         overflow-x: hidden;
+        overflow-x: hidden;
     }
 
 }
