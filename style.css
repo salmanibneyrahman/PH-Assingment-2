@@ -200,7 +200,7 @@ body {
 }
 
 
-.card-title{
+.card-title {
     text-align: center;
     color: #00ff88;
 }
@@ -255,17 +255,66 @@ body {
     }
 
 
-    .new-badge {
+    .new-little-badge {
         top: 1rem;
         left: 70%;
         padding: 0.2rem 0.5rem;
         font-size: 0.7rem;
     }
 
+
     .banner-content {
         padding-top: 1.5rem;
         margin: 1rem 0;
         overflow-x: hidden;
+    }
+
+
+    /* about section */
+    .about-section {
+        max-width: 27.5rem;
+        height: 36rem;
+        padding: 26px 15px;
+    }
+
+
+    .about-section-description {
+        max-width: 25rem;
+    }
+
+
+    .about-section-title {
+        font-size: 2rem;
+    }
+
+
+    .about-section-paragraph {
+        line-height: 1.25rem;
+    }
+
+
+    br {
+        display: none;
+    }
+
+
+    .about-paragraph-break {
+        margin-top: 1.25rem;
+        padding-bottom: 5rem;
+        border-bottom: .2rem solid rgba(255, 255, 255, 0.136);
+        margin-bottom: 10rem;
+    }
+
+
+    .about-card-container {
+        display: grid;
+        max-width: 22rem;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 2rem;
+        padding-right: 1rem;
+        column-gap: 1rem;
+        overflow: hidden;
     }
 
 }
