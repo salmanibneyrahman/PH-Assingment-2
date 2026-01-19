@@ -157,11 +157,6 @@ body {
 
     /* shared style */
 
-    * {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
     .navbar ul,
     .nav-btn {
         display: none;
@@ -216,6 +211,7 @@ body {
     .banner-content {
         padding-top: 1.5rem;
         margin: 1rem 0;
+         overflow-x: hidden;
     }
 
 }
