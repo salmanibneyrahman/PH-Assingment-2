@@ -155,6 +155,13 @@ body {
 /* Responsive Style  */
 @media screen and (max-width: 576px) {
 
+    /* shared style */
+
+    * {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .navbar ul,
     .nav-btn {
         display: none;
@@ -172,6 +179,7 @@ body {
     .listen-btn {
         display: inline-flex;
     }
+
 
 
     .banner-section {
