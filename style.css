@@ -387,7 +387,7 @@ body {
     /* about section */
     .about-section {
         max-width: 27.5rem;
-        height: 36rem;
+        height: 60rem;
         padding: 26px 15px;
     }
 
@@ -446,7 +446,7 @@ body {
 
 
     .why-choose-container {
-        margin-top: 20rem;
+        margin-top: 1rem;
     }
 
 
